@@ -60,7 +60,8 @@ final class RootControl : RootControlBase {
     super.init(context: context, colorCubeControl: colorCubeControl)
 
     backgroundColor = Style.default.control.backgroundColor
-
+    displayType = .edit
+    
     layout: do {
 
       let stackView = UIStackView(arrangedSubviews: [filtersButton, editButton])
@@ -104,9 +105,7 @@ final class RootControl : RootControlBase {
 
       filtersButton.titleLabel!.font = UIFont.boldSystemFont(ofSize: 17)
       editButton.titleLabel!.font = UIFont.boldSystemFont(ofSize: 17)
-
-      filtersButton.addTarget(self, action: #selector(didTapFilterButton), for: .touchUpInside)
-      editButton.addTarget(self, action: #selector(didTapEditButton), for: .touchUpInside)
+    
     }
 
   }
