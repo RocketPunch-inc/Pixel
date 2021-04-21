@@ -17,7 +17,7 @@ public struct L10nStorage {
   public var editSaturation = "Saturation"
   public var editContrast = "대조"
   public var editBlur = "Blur"
-  public var editTemperature = "Temperature"
+  public var editTemperature = "온도"
   public var editBrightness = "밝기"
   public var editVignette = "Vignette"
   public var editFade = "Fade"

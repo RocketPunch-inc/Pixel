@@ -200,29 +200,29 @@ public enum EditMenu: CaseIterable {
           case .adjustment:
             buttons.append(adjustmentButton)
           case .mask:
-            buttons.append(maskButton)
+            print("")
           case .exposure:
-            buttons.append(exposureButton)
+            print("")
           case .gaussianBlur:
-            buttons.append(gaussianBlurButton)
+            print("")
           case .contrast:
-            buttons.append(contrastButton)
+            print("")
           case .temperature:
             buttons.append(temperatureButton)
           case .saturation:
-            buttons.append(saturationButton)
+            print("")
           case .highlights:
-            buttons.append(highlightsButton)
+            print("")
           case .shadows:
-            buttons.append(shadowsButton)
+            print("")
           case .vignette:
-            buttons.append(vignetteButton)
+            print("")
           case .fade:
-            buttons.append(fadeButton)
+            print("")
           case .sharpen:
-            buttons.append(sharpenButton)
+            print("")
           case .clarity:
-            buttons.append(clarityButton)
+            print("")
           }
         }
         
